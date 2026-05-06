@@ -26,6 +26,7 @@ jobs:
       - name: Collect Coins
         timeout-minutes: 5
         run: |
+          sed -i 's/\r$//' coins.sh
           chmod +x coins.sh
           ./coins.sh
 
