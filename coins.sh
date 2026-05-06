@@ -126,4 +126,4 @@ main() {
     fi
 }
 
-main
+main
